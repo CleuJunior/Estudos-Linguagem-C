@@ -7,7 +7,7 @@ int main(void){
 
     int A[5];
 
-    // Imprimindo o endereço de cada posição da array, com 4 bites de diferença entre cada um.
+    // Imprimindo o endereço de cada posição da array, com 4 bytes de diferença entre cada um.
 
     for(int index = 0; index < 5; index++){
         printf("%u\n", &A[index]);
