@@ -28,5 +28,9 @@ int main(void){
         printf("%d ", p[index]);
     }
 
+    // Liberando espaço alocado na memória.
+
+    free(p);
+
     return 0;
 }
