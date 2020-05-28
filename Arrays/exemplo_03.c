@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void){
 
@@ -8,10 +9,9 @@ int main(void){
         for (size_t j = 0; j < 3; j++)
         {
             printf("[%d]", array2D[i][j]);
-        }
-        printf("\n");
+            printf("\n");
+        }        
     }
-
 
     return 0;
 }
